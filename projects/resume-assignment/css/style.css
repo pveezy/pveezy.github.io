@@ -1,1 +1,72 @@
 
+/*
+  font-family: "Abril Fatface", serif;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+
+dark #292A28
+light #FFFBF7
+red #8D5B4C
+blue #225560
+*/
+
+body {
+    margin: 2em auto;
+    width: 75%;
+    background-color: #fffbf7;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 4em;
+}
+
+a {
+    color: #330033;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 2em 0 4em 0;
+}
+
+.contact {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.objective {
+    background-color: #b35900;
+    color: #fffbf7;
+    margin: 4em 0;
+    padding: 3em;
+    text-align: center;
+}
+
+.date {
+    font-weight: 100;
+    color: #6F6E67;
+    font-style: italic;
+    font-family: "PT Serif", serif;
+}
+
+.resume-item {
+    margin: 3em 0;
+}
+
+h4,
+i {
+    display: inline;
+}
+
+#education {
+    background-color: #d6ccd6;
+    margin: 2em 0;
+    padding: 5px 25px 25px 25px;
+}
