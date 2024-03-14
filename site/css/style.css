@@ -1,0 +1,68 @@
+nav {
+    background-color: #000000;
+    color: #ffd132;
+    background-image: url(../images/flag.png);
+    padding: 15px 25px;
+    border-bottom: 10px solid #b80525;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 24px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 690px;
+    background-image: url("../images/phil-ry-image-edit2.png");
+    border-bottom: 10px solid #ffffff;
+}
+
+.about-paragraph {
+    padding: 100px;
+    color: white;
+    background-color: #171717;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: #ffd132;
+}
+
+/*Below is for Resume Page*/
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+.column img {
+    border-radius: 50%;
+}
+
+.left {
+    width: 70%;
+    height: auto;
+    background-color: #171717;
+    color: #ffffff;
+    padding: 20px 50px;
+}
+
+.right {
+    width: 30%;
+    height: auto;
+    background-color: #ffd132;
+    background-image: url(../images/phillip-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
